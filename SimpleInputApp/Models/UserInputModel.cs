@@ -8,7 +8,7 @@ namespace SimpleInputApp.Models
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Email is required")]
-        [EmailAddress(ErrorMessage = "Invalid email address")]
+        [EmailAddress(ErrorMessage = "Email not valid")]
         public string Email { get; set; }
     }
 }
