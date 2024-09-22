@@ -5,18 +5,18 @@
     Description: User input Form that submit Name amd email
 -->
 <form asp-action="Submit" method="post">
-    <div>
+    <div style="margin-bottom: 13px;">
         <label asp-for="Name"></label>
         <input asp-for="Name" />
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
     
-    <div>
+    <div style="margin-bottom: 13px;">
         <label asp-for="Email"></label>
         <input asp-for="Email" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
-    <button type="submit">Submit</button>
+    <button type="submit">Enter</button>
 </form>
 
 <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.6.0.min.js"></script>
